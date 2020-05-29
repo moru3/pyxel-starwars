@@ -29,7 +29,7 @@ class App:
     def __init__(self):
         pyxel.init(80, self.PIPE_HEIGHT*self.NUM_OF_PIPE, caption="Starwars the Death Star")
 
-        pyxel.load("starwars.pyxres")
+        pyxel.load("assets/starwars.pyxres")
 
         # X-Wingの初期状態
         self.xwing_x = 32
